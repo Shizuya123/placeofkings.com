@@ -116,7 +116,7 @@ object-position: top;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(1.png) no-repeat;
+    background: url(logos.png) no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -163,7 +163,10 @@ section{
     margin-bottom: 3rem;
     color: var(--black);
 }
-
+.swiper-slide{
+    align-items: center;
+    justify-content: center;
+}
 .swiper-slide .imgs{
     width: 200px;
     height: 200px;
@@ -291,7 +294,7 @@ object-position: center;
 }
  
 .newsletter{
-    background: url(choco.jpg) no-repeat;
+    background: url(butche.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -501,6 +504,7 @@ object-position: center;
         margin-left: 0;
         width: 80%;
     }
+
 }
 
 @media (max-width:768px) {
@@ -528,6 +532,10 @@ object-position: center;
     .home .homeContent{
         margin-left: 0;
         width: 90%;
+    }
+    .swiper-slide .imgz{
+        width: 300px;
+        height: 300px;
     }
 }
 
